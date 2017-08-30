@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Dating Website</title>
+</head>
+<body>
+<form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post">
+<h1>Please fill in the box with your correct details.</h1>
+<fieldset>
+<legend>Insert Your Photo</legend>
+<label for="avatar" id="avatar">Your Image:</label>
+<input type="file" id="avatar" name="avatar" required><br>
+Image Preview :<img id="preview">
+</fieldset>
+<fieldset>
+<legend>General Details</legend>
+<label for="name" id="firstname">FirstName:</label>
+<input type="text" id="firstname" name="firstname" required><br>
+<label for="lastname" id="lastname">LastName:</label>
+<input type="text" id="lastname" name="lastname" required="true"><br>
+<label for="gender">Gender:</label>
+<label for="male">Male:</label>
+<input type="radio" id="gender" name="male" required>
+<label for="female">Female:</label>
+<input type="radio" name="female" id="gender" reguired><br>
+<label for="age">Age : </label>
+<input type="number" name="age" id="age" required><br>
+<label for="Date Of Birth">Date Of Birth:</label>
+<input type="date" name="Date Of Birth" id="date_of_birth" required="true"><br>
+<label>Choose your Color:</label>
+<input type="color" name="color" id="color"><br>
+<label>Select your Country</label>
+<select>
+  <option>No Select</option>
+  <option>Liberia</option>
+  <option>USA</option>
+  <option>Uinted Kingdom</option>
+  <option>Australia</option>
+  <option>Spain</option>
+</select>
+</fieldset><br>
+<fieldset>
+<legend>Your Indicator</legend>
+<label>Height:</label>
+<label for="bad">Short</label>
+<input type="range" min="0" max="100" value="50" required="true">
+<label for="good">Tall</label><br>
+<label for="salary"> Salary:</label>
+<label for="poor">Poor</label>
+<input type="range" min="0" max="100" value="50">
+<label for="rich">Rich</label>
+</fieldset>
+<fieldset>
+<legend>Your Contact Information</legend>
+<label for="fullname" id="fullname" name="fullname">FullName:</label>
+<input type="text" id="name" name="name" required><br>
+<label for="">Email:</label>
+<input type="email" name="email" id="email"required><br>
+<label>Mobile:</label>
+<input type="tel" name="mobile" id="mobile" required><br>
+<label>Address:</label>
+<textarea></textarea><br>
+<label>Methods of Contact:</label>
+<input type="checkbox">
+<label>Email</label>
+<input type="checkbox">
+<label>Whatsapp</label>
+<input type="checkbox">
+<label>InApp Chat</label>
+</fieldset>
+<input type="submit" name="Submit">
+</form>
+</body>
+</html>
